@@ -1,0 +1,21 @@
+<! DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="UTF-8">
+        <title>Map with Folium</title>
+    </head>
+    <body>
+
+        {{map | safe}}
+
+        {% with messages = get_flashed_messages(with_categories=false) %}
+            {% if messages %}
+                <ul class=flashes>
+                {% for message in messages %}
+                    <li>{{ message }}</li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+    </body>
+</html>

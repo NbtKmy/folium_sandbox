@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c76dcb5c991447c5b3c202118e638d59 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c76dcb5c991447c5b3c202118e638d59" ></div>
+        
+</body>
+<script>    
+    
+            var map_c76dcb5c991447c5b3c202118e638d59 = L.map(
+                "map_c76dcb5c991447c5b3c202118e638d59",
+                {
+                    center: [35.716677, 139.796637],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f8bb5a77d5a44e9fabc6400005b29f35 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c76dcb5c991447c5b3c202118e638d59);
+        
+    
+            var feature_group_4e4a8de1b6064df69e469695da856799 = L.featureGroup(
+                {}
+            ).addTo(map_c76dcb5c991447c5b3c202118e638d59);
+        
+    
+            var marker_8244c972710c43c3a7bec2e036929867 = L.marker(
+                [35.713047, 139.79393],
+                {}
+            ).addTo(feature_group_4e4a8de1b6064df69e469695da856799);
+        
+    
+            var icon_70eadf276692477299d0cd498520fb57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "heart", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8244c972710c43c3a7bec2e036929867.setIcon(icon_70eadf276692477299d0cd498520fb57);
+        
+    
+        var popup_89c3ca8390d7433ca449f408fddb662b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d730a06593c348c8a6f881011715ec66 = $(`<div id="html_d730a06593c348c8a6f881011715ec66" style="width: 100.0%; height: 100.0%;"><span style="white-space: nowrap;">珈琲 天国</span></div>`)[0];
+            popup_89c3ca8390d7433ca449f408fddb662b.setContent(html_d730a06593c348c8a6f881011715ec66);
+        
+
+        marker_8244c972710c43c3a7bec2e036929867.bindPopup(popup_89c3ca8390d7433ca449f408fddb662b)
+        ;
+
+        
+    
+    
+            var marker_530d8725e91d4b6498c824402a22d61d = L.marker(
+                [35.710377, 139.796539],
+                {}
+            ).addTo(feature_group_4e4a8de1b6064df69e469695da856799);
+        
+    
+            var icon_6ea32ca2fa9346e181ae033b2f945d89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "heart", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_530d8725e91d4b6498c824402a22d61d.setIcon(icon_6ea32ca2fa9346e181ae033b2f945d89);
+        
+    
+        var popup_ead0ab8266f74714905cfb2a01b4ea95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36cb8e795d804f0ebbb038831fb1fb6e = $(`<div id="html_36cb8e795d804f0ebbb038831fb1fb6e" style="width: 100.0%; height: 100.0%;"><span style="white-space: nowrap;">亀十 </span></div>`)[0];
+            popup_ead0ab8266f74714905cfb2a01b4ea95.setContent(html_36cb8e795d804f0ebbb038831fb1fb6e);
+        
+
+        marker_530d8725e91d4b6498c824402a22d61d.bindPopup(popup_ead0ab8266f74714905cfb2a01b4ea95)
+        ;
+
+        
+    
+    
+            var marker_db3f4548c90f48bb8def7a1e28865e29 = L.marker(
+                [35.712341, 139.796005],
+                {}
+            ).addTo(feature_group_4e4a8de1b6064df69e469695da856799);
+        
+    
+            var icon_57ae385a70444cb1aa2c13a53bd537b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "heart", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_db3f4548c90f48bb8def7a1e28865e29.setIcon(icon_57ae385a70444cb1aa2c13a53bd537b5);
+        
+    
+        var popup_9f7c1cc369ce4306b4c8b873effd9739 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_669406581f734fdeb0cd89916c339525 = $(`<div id="html_669406581f734fdeb0cd89916c339525" style="width: 100.0%; height: 100.0%;"><span style="white-space: nowrap;">梅園 浅草本店 </span></div>`)[0];
+            popup_9f7c1cc369ce4306b4c8b873effd9739.setContent(html_669406581f734fdeb0cd89916c339525);
+        
+
+        marker_db3f4548c90f48bb8def7a1e28865e29.bindPopup(popup_9f7c1cc369ce4306b4c8b873effd9739)
+        ;
+
+        
+    
+    
+            var marker_27591f4b84f34ca3a298dc9955a59df0 = L.marker(
+                [35.711834, 139.795166],
+                {}
+            ).addTo(feature_group_4e4a8de1b6064df69e469695da856799);
+        
+    
+            var icon_1b908f2767ec463985a12155e8efbf8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "heart", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_27591f4b84f34ca3a298dc9955a59df0.setIcon(icon_1b908f2767ec463985a12155e8efbf8e);
+        
+    
+        var popup_e34a6f1474374eb1ad08f95415e64ec8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_401333c1cd794da99873f88840c61f24 = $(`<div id="html_401333c1cd794da99873f88840c61f24" style="width: 100.0%; height: 100.0%;"><span style="white-space: nowrap;">満願堂 本店 </span></div>`)[0];
+            popup_e34a6f1474374eb1ad08f95415e64ec8.setContent(html_401333c1cd794da99873f88840c61f24);
+        
+
+        marker_27591f4b84f34ca3a298dc9955a59df0.bindPopup(popup_e34a6f1474374eb1ad08f95415e64ec8)
+        ;
+
+        
+    
+    
+            var marker_2c29d942ab5c4cf4bb87122c7191c07a = L.marker(
+                [35.712055, 139.794388],
+                {}
+            ).addTo(feature_group_4e4a8de1b6064df69e469695da856799);
+        
+    
+            var icon_9bf3ad2ee5bf49608e4739a963165868 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "heart", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2c29d942ab5c4cf4bb87122c7191c07a.setIcon(icon_9bf3ad2ee5bf49608e4739a963165868);
+        
+    
+        var popup_a0f8efa5adcd4febb85d27c5d8b57632 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81627b55e1d84fd6b792b282bda8950b = $(`<div id="html_81627b55e1d84fd6b792b282bda8950b" style="width: 100.0%; height: 100.0%;"><span style="white-space: nowrap;">舟和 本店 </span></div>`)[0];
+            popup_a0f8efa5adcd4febb85d27c5d8b57632.setContent(html_81627b55e1d84fd6b792b282bda8950b);
+        
+
+        marker_2c29d942ab5c4cf4bb87122c7191c07a.bindPopup(popup_a0f8efa5adcd4febb85d27c5d8b57632)
+        ;
+
+        
+    
+    
+            var marker_7f96b8eebaf74edbb2cb0f67b05ac672 = L.marker(
+                [35.723095, 139.812134],
+                {}
+            ).addTo(feature_group_4e4a8de1b6064df69e469695da856799);
+        
+    
+            var icon_a0e49cc5659a43b598928601915460a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "heart", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7f96b8eebaf74edbb2cb0f67b05ac672.setIcon(icon_a0e49cc5659a43b598928601915460a2);
+        
+    
+        var popup_1fdf824c70c94e499ed077a32baba225 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_553713643ef7473fac0f92587163b83d = $(`<div id="html_553713643ef7473fac0f92587163b83d" style="width: 100.0%; height: 100.0%;"><span style="white-space: nowrap;">志"満ん草餅</span></div>`)[0];
+            popup_1fdf824c70c94e499ed077a32baba225.setContent(html_553713643ef7473fac0f92587163b83d);
+        
+
+        marker_7f96b8eebaf74edbb2cb0f67b05ac672.bindPopup(popup_1fdf824c70c94e499ed077a32baba225)
+        ;
+
+        
+    
+    
+            var feature_group_1f186402706f44f3bebe9e1b8830942d = L.featureGroup(
+                {}
+            ).addTo(map_c76dcb5c991447c5b3c202118e638d59);
+        
+    
+            var marker_5649eae389c349f3835a6734d9a5fa8f = L.marker(
+                [35.717014, 139.794586],
+                {}
+            ).addTo(feature_group_1f186402706f44f3bebe9e1b8830942d);
+        
+    
+            var icon_4852194cdf114b6f8dec126a5b1a2f8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5649eae389c349f3835a6734d9a5fa8f.setIcon(icon_4852194cdf114b6f8dec126a5b1a2f8d);
+        
+    
+        var popup_ad9a3dad62c74eb791729817c7538b41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf870faceed14899bfa507174a2b676d = $(`<div id="html_cf870faceed14899bfa507174a2b676d" style="width: 100.0%; height: 100.0%;"><span style="white-space: nowrap;">おにぎり浅草宿六</span></div>`)[0];
+            popup_ad9a3dad62c74eb791729817c7538b41.setContent(html_cf870faceed14899bfa507174a2b676d);
+        
+
+        marker_5649eae389c349f3835a6734d9a5fa8f.bindPopup(popup_ad9a3dad62c74eb791729817c7538b41)
+        ;
+
+        
+    
+    
+            var marker_070cbabd8df64d60943b7a05c15fa09e = L.marker(
+                [35.71257, 139.795303],
+                {}
+            ).addTo(feature_group_1f186402706f44f3bebe9e1b8830942d);
+        
+    
+            var icon_436ba9e537074afd940d13bee64908eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "glass", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_070cbabd8df64d60943b7a05c15fa09e.setIcon(icon_436ba9e537074afd940d13bee64908eb);
+        
+    
+        var popup_d647f04603474a1fadc8261708a6b088 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f68cae90a68e4e408bc39e089705a24d = $(`<div id="html_f68cae90a68e4e408bc39e089705a24d" style="width: 100.0%; height: 100.0%;"><span style="white-space: nowrap;">大黒家天麩羅 本店</span></div>`)[0];
+            popup_d647f04603474a1fadc8261708a6b088.setContent(html_f68cae90a68e4e408bc39e089705a24d);
+        
+
+        marker_070cbabd8df64d60943b7a05c15fa09e.bindPopup(popup_d647f04603474a1fadc8261708a6b088)
+        ;
+
+        
+    
+    
+            var feature_group_8cb86a9e408e4016b2513bcd15afc4f9 = L.featureGroup(
+                {}
+            ).addTo(map_c76dcb5c991447c5b3c202118e638d59);
+        
+    
+            var marker_e9ec994d7b884205af066c48a228a320 = L.marker(
+                [35.713821, 139.805801],
+                {}
+            ).addTo(feature_group_8cb86a9e408e4016b2513bcd15afc4f9);
+        
+    
+            var icon_a30bbf5fb1ed4ff0af68715f121c421f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "search", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e9ec994d7b884205af066c48a228a320.setIcon(icon_a30bbf5fb1ed4ff0af68715f121c421f);
+        
+    
+        var popup_0c3141294d6345dab7916df0783901ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b66a3c8b6d634287bc036dbf5208b304 = $(`<div id="html_b66a3c8b6d634287bc036dbf5208b304" style="width: 100.0%; height: 100.0%;"><span style="white-space: nowrap;">「中世すみだの歴史さんぽ」</span></div>`)[0];
+            popup_0c3141294d6345dab7916df0783901ed.setContent(html_b66a3c8b6d634287bc036dbf5208b304);
+        
+
+        marker_e9ec994d7b884205af066c48a228a320.bindPopup(popup_0c3141294d6345dab7916df0783901ed)
+        ;
+
+        
+    
+    
+            var marker_6dc94b2670bd44058272b21c7ad87d32 = L.marker(
+                [35.697376, 139.796951],
+                {}
+            ).addTo(feature_group_8cb86a9e408e4016b2513bcd15afc4f9);
+        
+    
+            var icon_ee06befd2aa9460c8794ea783cced74e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "search", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6dc94b2670bd44058272b21c7ad87d32.setIcon(icon_ee06befd2aa9460c8794ea783cced74e);
+        
+    
+        var popup_f18d9c2ed7dd43d7bdf1668fccca93db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e252a03e206a4748be9be0f1cd9feaa8 = $(`<div id="html_e252a03e206a4748be9be0f1cd9feaa8" style="width: 100.0%; height: 100.0%;"><span style="white-space: nowrap;">置行堀（本所七不思議）</span><img width="240" src=https://upload.wikimedia.org/wikipedia/commons/3/31/Kuniteru_Honjo-nana-fushigi_Oitekebori.jpg></div>`)[0];
+            popup_f18d9c2ed7dd43d7bdf1668fccca93db.setContent(html_e252a03e206a4748be9be0f1cd9feaa8);
+        
+
+        marker_6dc94b2670bd44058272b21c7ad87d32.bindPopup(popup_f18d9c2ed7dd43d7bdf1668fccca93db)
+        ;
+
+        
+    
+    
+            var marker_aec5bdfef83346118682af065f9bb723 = L.marker(
+                [35.702114, 139.810013],
+                {}
+            ).addTo(feature_group_8cb86a9e408e4016b2513bcd15afc4f9);
+        
+    
+            var icon_5359cddf5e3c4850b07a0de3a2f7d173 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "search", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aec5bdfef83346118682af065f9bb723.setIcon(icon_5359cddf5e3c4850b07a0de3a2f7d173);
+        
+    
+        var popup_ac80fdbb27e34b8ea8838087dabc0040 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c30b7d42dc164f93a9346f8ea7abef17 = $(`<div id="html_c30b7d42dc164f93a9346f8ea7abef17" style="width: 100.0%; height: 100.0%;"><span style="white-space: nowrap;">送り提灯（本所七不思議）</span><img width="240" src=https://upload.wikimedia.org/wikipedia/commons/b/b9/Kuniteru_Honjo-nana-fushigi_Okuri-chochin.jpg></div>`)[0];
+            popup_ac80fdbb27e34b8ea8838087dabc0040.setContent(html_c30b7d42dc164f93a9346f8ea7abef17);
+        
+
+        marker_aec5bdfef83346118682af065f9bb723.bindPopup(popup_ac80fdbb27e34b8ea8838087dabc0040)
+        ;
+
+        
+    
+    
+            var marker_d5b11681769c41628bfdec3780ebb352 = L.marker(
+                [35.69648, 139.797714],
+                {}
+            ).addTo(feature_group_8cb86a9e408e4016b2513bcd15afc4f9);
+        
+    
+            var icon_5ed4a899d2fd4967a73dff20e38b3862 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "search", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d5b11681769c41628bfdec3780ebb352.setIcon(icon_5ed4a899d2fd4967a73dff20e38b3862);
+        
+    
+        var popup_6ffd3eadfafe4d55ad1a3698d8d7c283 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0192c9fae90b44cfa429bad89a3ce650 = $(`<div id="html_0192c9fae90b44cfa429bad89a3ce650" style="width: 100.0%; height: 100.0%;"><span style="white-space: nowrap;">送り拍子木（本所七不思議）</span><img width="240" src=https://upload.wikimedia.org/wikipedia/commons/0/01/Kuniteru_Honjo-nana-fushigi_Okuri-hyoshigi.jpg></div>`)[0];
+            popup_6ffd3eadfafe4d55ad1a3698d8d7c283.setContent(html_0192c9fae90b44cfa429bad89a3ce650);
+        
+
+        marker_d5b11681769c41628bfdec3780ebb352.bindPopup(popup_6ffd3eadfafe4d55ad1a3698d8d7c283)
+        ;
+
+        
+    
+    
+            var marker_8213bbf45771498d8926563b7225ad55 = L.marker(
+                [35.69648, 139.797714],
+                {}
+            ).addTo(feature_group_8cb86a9e408e4016b2513bcd15afc4f9);
+        
+    
+            var icon_40bf8717d9234a76abdea1ada7db2581 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "search", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8213bbf45771498d8926563b7225ad55.setIcon(icon_40bf8717d9234a76abdea1ada7db2581);
+        
+    
+        var popup_183775abcd814a3cbcb0866bcd674e1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24815e08bef94cd4b96f7baea7d55696 = $(`<div id="html_24815e08bef94cd4b96f7baea7d55696" style="width: 100.0%; height: 100.0%;"><span style="white-space: nowrap;">燈無蕎麦（本所七不思議）</span><img width="240" src=https://upload.wikimedia.org/wikipedia/commons/5/50/Kuniteru_Honjo-nana-fushigi_Akarinashisoba.jpg></div>`)[0];
+            popup_183775abcd814a3cbcb0866bcd674e1a.setContent(html_24815e08bef94cd4b96f7baea7d55696);
+        
+
+        marker_8213bbf45771498d8926563b7225ad55.bindPopup(popup_183775abcd814a3cbcb0866bcd674e1a)
+        ;
+
+        
+    
+    
+            var marker_9d2ae374d3aa40fb8b31d7587e70c553 = L.marker(
+                [35.697594, 139.803986],
+                {}
+            ).addTo(feature_group_8cb86a9e408e4016b2513bcd15afc4f9);
+        
+    
+            var icon_7dc4c447bc7e44d7a83479201550f6f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "search", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9d2ae374d3aa40fb8b31d7587e70c553.setIcon(icon_7dc4c447bc7e44d7a83479201550f6f4);
+        
+    
+        var popup_68cb7c33a06d43f6ba35c06aaa36710e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f2113183767473f9a4d67cc92ed4b32 = $(`<div id="html_3f2113183767473f9a4d67cc92ed4b32" style="width: 100.0%; height: 100.0%;"><span style="white-space: nowrap;">足洗邸（本所七不思議）</span><img width="240" src=https://upload.wikimedia.org/wikipedia/commons/f/f2/Kuniteru_Honjo-nana-fushigi_Ashiaraiyashiki.jpg></div>`)[0];
+            popup_68cb7c33a06d43f6ba35c06aaa36710e.setContent(html_3f2113183767473f9a4d67cc92ed4b32);
+        
+
+        marker_9d2ae374d3aa40fb8b31d7587e70c553.bindPopup(popup_68cb7c33a06d43f6ba35c06aaa36710e)
+        ;
+
+        
+    
+    
+            var marker_33bb75fcc53042fb99770e69f701f50e = L.marker(
+                [35.694107, 139.789856],
+                {}
+            ).addTo(feature_group_8cb86a9e408e4016b2513bcd15afc4f9);
+        
+    
+            var icon_6f6fecd7f1204c1dbfbda57cc147cae0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "search", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_33bb75fcc53042fb99770e69f701f50e.setIcon(icon_6f6fecd7f1204c1dbfbda57cc147cae0);
+        
+    
+        var popup_d99aa9316e06464abd6194f5a4c78c8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f56435dd26f045498cb48261da8cd3ce = $(`<div id="html_f56435dd26f045498cb48261da8cd3ce" style="width: 100.0%; height: 100.0%;"><span style="white-space: nowrap;">片葉の葦（本所七不思議）</span><img width="240" src=https://upload.wikimedia.org/wikipedia/commons/4/4d/Kuniteru_Honjo-nana-fushigi_Kataha-no-ashi.jpg></div>`)[0];
+            popup_d99aa9316e06464abd6194f5a4c78c8f.setContent(html_f56435dd26f045498cb48261da8cd3ce);
+        
+
+        marker_33bb75fcc53042fb99770e69f701f50e.bindPopup(popup_d99aa9316e06464abd6194f5a4c78c8f)
+        ;
+
+        
+    
+    
+            var marker_c365b9b6404048d3bb22cb5ab7f59d76 = L.marker(
+                [35.699757, 139.794403],
+                {}
+            ).addTo(feature_group_8cb86a9e408e4016b2513bcd15afc4f9);
+        
+    
+            var icon_054b2daa0b594c1691422c5e9a7fee8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "search", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c365b9b6404048d3bb22cb5ab7f59d76.setIcon(icon_054b2daa0b594c1691422c5e9a7fee8d);
+        
+    
+        var popup_9bb57e9480ca4c88ad597f5e7a6c2369 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab40cecf01714166b2642731669047e8 = $(`<div id="html_ab40cecf01714166b2642731669047e8" style="width: 100.0%; height: 100.0%;"><span style="white-space: nowrap;">落葉なき椎（本所七不思議）</span></div>`)[0];
+            popup_9bb57e9480ca4c88ad597f5e7a6c2369.setContent(html_ab40cecf01714166b2642731669047e8);
+        
+
+        marker_c365b9b6404048d3bb22cb5ab7f59d76.bindPopup(popup_9bb57e9480ca4c88ad597f5e7a6c2369)
+        ;
+
+        
+    
+    
+            var marker_498940cb1c73484eaa31f56fa16524fe = L.marker(
+                [35.706669, 139.803085],
+                {}
+            ).addTo(feature_group_8cb86a9e408e4016b2513bcd15afc4f9);
+        
+    
+            var icon_f1048b1069ce4bbcb9d4f20d5c19620a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "search", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_498940cb1c73484eaa31f56fa16524fe.setIcon(icon_f1048b1069ce4bbcb9d4f20d5c19620a);
+        
+    
+        var popup_7771fa02751e4bb1ad67a587d8bb5f04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34b27558a0164b3481288f37c59905ee = $(`<div id="html_34b27558a0164b3481288f37c59905ee" style="width: 100.0%; height: 100.0%;"><span style="white-space: nowrap;">狸囃子（本所七不思議）</span><img width="240" src=https://upload.wikimedia.org/wikipedia/commons/b/b0/Kuniteru_Honjo-nana-fushigi_Tanuki-bayashi.jpg></div>`)[0];
+            popup_7771fa02751e4bb1ad67a587d8bb5f04.setContent(html_34b27558a0164b3481288f37c59905ee);
+        
+
+        marker_498940cb1c73484eaa31f56fa16524fe.bindPopup(popup_7771fa02751e4bb1ad67a587d8bb5f04)
+        ;
+
+        
+    
+    
+            var marker_5fa1ebf9450043dba05c7b0f2edcbb55 = L.marker(
+                [35.696617, 139.800446],
+                {}
+            ).addTo(feature_group_8cb86a9e408e4016b2513bcd15afc4f9);
+        
+    
+            var icon_f2c8132c360c4fabb96701cb55347576 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "search", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5fa1ebf9450043dba05c7b0f2edcbb55.setIcon(icon_f2c8132c360c4fabb96701cb55347576);
+        
+    
+        var popup_34c457a50a564fb3ad6dee504d1e21cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_984c9bcc6a6d4e00b42ac9579ac14a81 = $(`<div id="html_984c9bcc6a6d4e00b42ac9579ac14a81" style="width: 100.0%; height: 100.0%;"><span style="white-space: nowrap;">津軽の太鼓（本所七不思議）</span></div>`)[0];
+            popup_34c457a50a564fb3ad6dee504d1e21cc.setContent(html_984c9bcc6a6d4e00b42ac9579ac14a81);
+        
+
+        marker_5fa1ebf9450043dba05c7b0f2edcbb55.bindPopup(popup_34c457a50a564fb3ad6dee504d1e21cc)
+        ;
+
+        
+    
+    
+            var layer_control_87aae894cebf4bfe86e33bf2480d4ea4 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_f8bb5a77d5a44e9fabc6400005b29f35,
+                },
+                overlays :  {
+                    "\u30b9\u30a4\u30fc\u30c4" : feature_group_4e4a8de1b6064df69e469695da856799,
+                    "\u3054\u98ef" : feature_group_1f186402706f44f3bebe9e1b8830942d,
+                    "\u89b3\u5149" : feature_group_8cb86a9e408e4016b2513bcd15afc4f9,
+                },
+            };
+            L.control.layers(
+                layer_control_87aae894cebf4bfe86e33bf2480d4ea4.base_layers,
+                layer_control_87aae894cebf4bfe86e33bf2480d4ea4.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_c76dcb5c991447c5b3c202118e638d59);
+        
+</script>
