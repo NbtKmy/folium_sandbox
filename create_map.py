@@ -1,6 +1,7 @@
 # coding: UTF-8
 
 import folium
+from folium import plugins
 import pandas as pd
 import branca.colormap as cm
 import math
@@ -73,6 +74,8 @@ def asakusa_map():
     map_asakusa.add_child(fg_kanko)
 
     folium.LayerControl().add_to(map_asakusa)
+    plugins.LocateControl().add_to(map_asakusa)
+
     map_asakusa.save('map.html')
     webbrowser.open('map.html')
     
